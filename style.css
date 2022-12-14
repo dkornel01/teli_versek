@@ -1,0 +1,60 @@
+main{grid-template-areas: "h h h h"
+                          "n a a as"
+                          "f f f f";
+    display: grid;
+    width: 80%;
+    margin: 10%;
+    margin-top: 0% ;
+    margin-bottom: 0%;
+    gap:0px;
+    background: white;
+                        }
+
+article{grid-area: a;
+padding: 5%;
+padding-bottom: 30%;}
+
+nav{grid-area: n;
+    grid-template-columns: 1fr;
+    display:grid;
+    gap:0px;
+color: white;
+height: 30%;}
+
+aside{grid-area: as;
+    border: 1px solid black;
+border-right:0px ;
+text-align: center;}
+
+footer{grid-area: f;
+    text-align: center;
+background-color: blue;}
+
+header{grid-area: h;
+text-align: center;
+background-image:url(fejlec.jpg)}
+
+article td{border-bottom:1px solid blue ;}
+
+article table{border-collapse: collapse;
+    width: 100%;
+    padding: 5%;
+            }
+ tr:nth-child(odd){
+    background-color: aquamarine;
+}
+ tr:nth-child(odd){
+    -color: rgb(255, 255, 255);
+}
+nav li{
+    background-color: blue;
+    border: 1px solid white;
+    border-radius: 10px;
+    text-align: center;
+}
+nav a:active {color: white;
+
+}
+body{
+    background-image:url(hatter.jpg) ;
+}
