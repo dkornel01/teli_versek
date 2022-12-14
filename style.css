@@ -24,7 +24,8 @@ height: 30%;}
 aside{grid-area: as;
     border: 1px solid black;
 border-right:0px ;
-text-align: center;}
+text-align: justify;
+padding-left: 10px;}
 
 footer{grid-area: f;
     text-align: center;
